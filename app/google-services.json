@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99575791179",
+    "project_id": "assignment2v2-58ccd",
+    "storage_bucket": "assignment2v2-58ccd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99575791179:android:048bf5a9d37d66945417ce",
+        "android_client_info": {
+          "package_name": "ca.kodenav.assignment1v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbf2wvahKvdsbYtHwlvKdbQSsvTypfyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

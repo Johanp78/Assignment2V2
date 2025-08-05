@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment1V2</string>
+    <string name="edit_text">Edit      \uf061</string>
+    <string name="delete_text">Delete      \uf061</string>
+    <string name="title_text_test">Guardians Of Galaxy Vol 2.0</string>
+    <string name="rating_text_test">4 Starts</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search">\uf002</string>
+    <string name="year_text_test">2020</string>
+    <string name="plot_text_test">After witnessing his parents\' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.</string>
+    <string name="add_movie">+ Movie</string>
+</resources>

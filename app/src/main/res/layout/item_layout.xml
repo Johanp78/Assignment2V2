@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tableCellBackground"
+    android:backgroundTint="@color/tableCellBackground"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Movie Poster" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/questrial_regular"
+                    android:text="Title"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/design_default_color_primary_variant"
+                    android:backgroundTint="@color/design_default_color_primary_variant"
+                    android:fontFamily="@font/questrial_regular"
+                    android:padding="@dimen/_3dp"
+                    android:text="2023"
+                    android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_16dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:fontFamily="@font/fa_solid_900"
+            android:text="\uf303"
+            app:cornerRadius="@dimen/_5dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:fontFamily="@font/fa_solid_900"
+            android:text="\uf1f8"
+            app:cornerRadius="@dimen/_5dp" />
+</LinearLayout>
