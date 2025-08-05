@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:backgroundTint="@color/black"
-    android:padding="16dp">
+    android:paddingVertical="50dp"
+    android:paddingHorizontal="20dp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -14,36 +15,52 @@
 
         <EditText
             android:id="@+id/etTitle"
-            android:hint="Movie Title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/questrial_regular"
+            android:hint="Movie Title"
+            android:textColor="@color/white"
+            android:textColorHint="@color/tableCellBackground" />
 
         <EditText
             android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/questrial_regular"
             android:hint="Year"
             android:inputType="number"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/tableCellBackground" />
 
         <EditText
             android:id="@+id/etThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/questrial_regular"
             android:hint="Thumbnail URL"
             android:inputType="textUri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/tableCellBackground" />
 
         <Button
             android:id="@+id/btnSave"
-            android:text="Add Movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:fontFamily="@font/questrial_regular"
+            android:text="Add Movie" />
 
         <Button
             android:id="@+id/btnCancel"
-            android:text="Cancel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/design_default_color_error"
+            android:fontFamily="@font/questrial_regular"
+            android:text="Cancel" />
     </LinearLayout>
 </ScrollView>
