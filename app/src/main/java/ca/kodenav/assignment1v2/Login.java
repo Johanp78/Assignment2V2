@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -57,6 +58,7 @@ public class Login extends AppCompatActivity {
                     finish();
                 } else {
                     Log.d("tag","signInWithEmailAndPassword:failure");
+                    Toast.makeText(getApplicationContext(), "Login failed :(", Toast.LENGTH_SHORT).show();
                 }
             }
         });

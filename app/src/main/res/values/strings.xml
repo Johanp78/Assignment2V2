@@ -9,4 +9,5 @@
     <string name="year_text_test">2020</string>
     <string name="plot_text_test">After witnessing his parents\' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.</string>
     <string name="add_movie">+ Movie</string>
+    <string name="go_back"></string>
 </resources>

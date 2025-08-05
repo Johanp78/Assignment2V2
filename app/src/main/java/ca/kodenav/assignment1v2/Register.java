@@ -45,6 +45,8 @@ public class Register extends AppCompatActivity {
             }
         });
 
+        binding.goBackButton.setOnClickListener(v -> finish());
+
     }
 
     private void registerUser(String email, String password){
